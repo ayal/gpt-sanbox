@@ -10,10 +10,12 @@
     "tcheck": "yarn tsc --noEmit",
     "lint": "yarn tcheck && yarn lint:es",
     "build": "yarn lint && yarn build:pure",
-    "build:core": "yarn build:pure"
+    "build:core": "yarn build:pure",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@types/node": "^18.15.3",
+    "gh-pages": "^5.0.0",
     "typescript": "^5.0.2"
   },
   "devDependencies": {
