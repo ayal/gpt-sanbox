@@ -5,13 +5,13 @@
   "main": "index.html",
   "scripts": {
     "start": "vite",
-    "build:pure": "vite build --base=./",
+    "build:pure": "rm -rf build && vite build --base=./",
     "lint:es": "yarn eslint ./src/index.ts",
     "tcheck": "yarn tsc --noEmit",
     "lint": "yarn tcheck && yarn lint:es",
     "build": "yarn lint && yarn build:pure",
     "build:core": "yarn build:pure",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@types/node": "^18.15.3",
