@@ -6,7 +6,7 @@
   "scripts": {
     "start": "vite",
     "build:pure": "rm -rf build && vite build --base=./",
-    "lint:es": "yarn eslint ./src/index.ts",
+    "lint:es": "yarn eslint ./src/index.tsx",
     "tcheck": "yarn tsc --noEmit",
     "lint": "yarn tcheck && yarn lint:es",
     "build": "yarn lint && yarn build:pure",
