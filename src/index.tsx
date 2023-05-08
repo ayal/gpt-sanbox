@@ -69,6 +69,8 @@ const makeRequest = async ({
   return res;
 };
 
+console.log("hello from eval-sandbox", typeof makeRequest);
+
 // function that accepts messages from parent window and sends messages to parent window
 const messageHandler = (event: MessageEvent) => {
   const message = event.data as IncomingMessage;

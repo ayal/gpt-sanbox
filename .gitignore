@@ -1,5 +1,4 @@
 node_modules
-build
 target
 serverless
 !/serverless  # Allow wix-serverless
