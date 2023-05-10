@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@types/node": "^18.15.3",
+    "@wix/api-client": "^1.1.68",
     "gh-pages": "^5.0.0",
     "typescript": "^5.0.2"
   },

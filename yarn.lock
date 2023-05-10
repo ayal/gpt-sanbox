@@ -231,6 +231,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.20.6, @babel/runtime@npm:^7.21.5":
+  version: 7.21.5
+  resolution: "@babel/runtime@npm:7.21.5::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40babel%2Fruntime%2F-%2Fruntime-7.21.5.tgz"
+  dependencies:
+    regenerator-runtime: ^0.13.11
+  checksum: c704c36bf1c7f948b1d404e3ad3b00897f6dbaf8bb9455b0a78f96ed0e2f24599f89fd3950a277566be6694ab8814a47bec743e98dd7c7f57e9f0fedc6c6c32f
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.20.7":
   version: 7.20.7
   resolution: "@babel/template@npm:7.20.7::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40babel%2Ftemplate%2F-%2Ftemplate-7.20.7.tgz"
@@ -611,6 +620,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rushstack/eslint-patch@npm:^1.1.0":
+  version: 1.2.0
+  resolution: "@rushstack/eslint-patch@npm:1.2.0::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40rushstack%2Feslint-patch%2F-%2Feslint-patch-1.2.0.tgz"
+  checksum: 96c7622ab54b759f9aca2b03ba98acdfae39adb8c7a97b429a8f5c90adb49cc2c38db894c9a02f4ad8088f132575146c091c15b1f10ed34026ffd2491930c3a4
+  languageName: node
+  linkType: hard
+
 "@svgr/babel-plugin-add-jsx-attribute@npm:^6.5.1":
   version: 6.5.1
   resolution: "@svgr/babel-plugin-add-jsx-attribute@npm:6.5.1::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40svgr%2Fbabel-plugin-add-jsx-attribute%2F-%2Fbabel-plugin-add-jsx-attribute-6.5.1.tgz"
@@ -749,6 +765,13 @@ __metadata:
   version: 1.0.1
   resolution: "@types/estree@npm:1.0.1::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40types%2Festree%2F-%2Festree-1.0.1.tgz"
   checksum: b4022067f834d86766f23074a1a7ac6c460e823b00cd8fe94c997bc491e7794615facd3e1520a934c42bd8c0689dbff81e5c643b01f1dee143fc758cac19669e
+  languageName: node
+  linkType: hard
+
+"@types/grecaptcha@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "@types/grecaptcha@npm:3.0.4::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40types%2Fgrecaptcha%2F-%2Fgrecaptcha-3.0.4.tgz"
+  checksum: 2614957ae87f3b4a27dec9469dc3ed73db20207c99c4701a5cb19c8b17ff9b7f385964760f5873d8f3a30789464f0afb2024631aa8b932ca8ead2f5e1f63c57d
   languageName: node
   linkType: hard
 
@@ -913,6 +936,177 @@ __metadata:
   peerDependencies:
     vite: ^4.1.0-beta.0
   checksum: 259a92a303cd736240dc0d3282d1261339e7bbcf51c5b326868c910b35d4bd22a360334b2dafa5bfc7f3e935f2cd0fdc7ccb6ec6b519b81017c4c4812cd05290
+  languageName: node
+  linkType: hard
+
+"@wix/api-client@npm:^1.1.68":
+  version: 1.1.68
+  resolution: "@wix/api-client@npm:1.1.68::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40wix%2Fapi-client%2F-%2Fapi-client-1.1.68.tgz"
+  dependencies:
+    "@babel/runtime": ^7.21.5
+    "@types/grecaptcha": ^3.0.4
+    "@wix/identity": ^1.0.34
+    "@wix/image-kit": ^1.31.0
+    "@wix/redirects": ^1.0.13
+    "@wix/sdk-types": 1.1.68
+    pkce-challenge: ^3.1.0
+    querystring: ^0.2.1
+    type-fest: ^2.19.0
+  checksum: 671db609a603a0239d308adee204d460c67507b901a4bf23fe44135e88b43b900a122325f127943a901aded9df56738ed6a7e63f16665a1f2bc9920c0115f6aa
+  languageName: node
+  linkType: hard
+
+"@wix/filter-builder@npm:^1.0.20":
+  version: 1.0.20
+  resolution: "@wix/filter-builder@npm:1.0.20::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40wix%2Ffilter-builder%2F-%2Ffilter-builder-1.0.20.tgz"
+  dependencies:
+    "@babel/runtime": ^7.20.6
+    kind-of: ~5.1.0
+    tslib: ^2.4.1
+  checksum: e4c4690e1dfde5f4670ac255c0859be0c7d8e5d80b5fcff99829f81c56dd70565a3fe7763747b555d536f33c8c8af39fc11c086c46274e11d6514c53cc89f627
+  languageName: node
+  linkType: hard
+
+"@wix/identity@npm:^1.0.34":
+  version: 1.0.37
+  resolution: "@wix/identity@npm:1.0.37::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40wix%2Fidentity%2F-%2Fidentity-1.0.37.tgz"
+  dependencies:
+    "@wix/metro-runtime": ^1.0.0
+    "@wix/motion-edm-autogen-query-wrapper": ^1.0.0
+    "@wix/sdk-types": ^1.0.0
+  checksum: aab3816637f4d9b677b45d2c26d72725aac0b229a70127a7410d9a49f516d3a1ef2bf87b8750bb6852c1b39597b40e54924ca674525aca1d6c1b6738a7c9b73a
+  languageName: node
+  linkType: hard
+
+"@wix/image-kit@npm:^1.31.0":
+  version: 1.32.0
+  resolution: "@wix/image-kit@npm:1.32.0::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40wix%2Fimage-kit%2F-%2Fimage-kit-1.32.0.tgz"
+  dependencies:
+    "@babel/runtime": ^7.0.0
+    tslib: ^2.0.0
+  checksum: d5ce22a9848f5c7be8a0735c2babca60860a7d73a7df38ccad6195fe8bef8168e6fe718df00c51e65d3555a0ecfaee55f3c1af1e6e5b238054a492c8d29f6132
+  languageName: node
+  linkType: hard
+
+"@wix/metro-public-utils@npm:1.0.5":
+  version: 1.0.5
+  resolution: "@wix/metro-public-utils@npm:1.0.5::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40wix%2Fmetro-public-utils%2F-%2Fmetro-public-utils-1.0.5.tgz"
+  dependencies:
+    "@babel/runtime": ^7.0.0
+  checksum: 310fd5038738e6132488b4e607aa9f92b39641295a948885e5a7b5cc9c296121517fed7047afb918b84b5e3841be5447afc977236a6446f174afcbdae50165b1
+  languageName: node
+  linkType: hard
+
+"@wix/metro-runtime@npm:^1.0.0":
+  version: 1.1482.0
+  resolution: "@wix/metro-runtime@npm:1.1482.0::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40wix%2Fmetro-runtime%2F-%2Fmetro-runtime-1.1482.0.tgz"
+  dependencies:
+    "@wix/metro-public-utils": 1.0.5
+    "@wix/motion-edm-autogen-p13n": 1.0.18
+    "@wix/motion-edm-autogen-transformations": 1.19.0
+    "@wix/motion-edm-autogen-transformations-core": 1.18.0
+    lodash: ^4.17.21
+    long: ^4.0.0
+  checksum: ceafbf493bb1c0889ce7d553f077fd4fa0bbfaaa005612c33dcc22345779d1ed15307de6959d1474c9e9bc419aeb36916a3d3dd0cac11ed68f1c2343b06d7342
+  languageName: node
+  linkType: hard
+
+"@wix/motion-edm-autogen-common@npm:1.16.0":
+  version: 1.16.0
+  resolution: "@wix/motion-edm-autogen-common@npm:1.16.0::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40wix%2Fmotion-edm-autogen-common%2F-%2Fmotion-edm-autogen-common-1.16.0.tgz"
+  dependencies:
+    "@babel/runtime": ^7.0.0
+    "@wix/motion-edm-autogen-types": 1.0.8
+    lodash: ~4.17.0
+    tslib: ^2.0.0
+  checksum: 3ac7d07e05c1baa72af06ac712673386412d9005544f3164b1d8851fdbd11d526765fb2bfe84b435c54059d179019cac85ada51d6a6d71c1ce48af21e7a1c602
+  languageName: node
+  linkType: hard
+
+"@wix/motion-edm-autogen-p13n@npm:1.0.18":
+  version: 1.0.18
+  resolution: "@wix/motion-edm-autogen-p13n@npm:1.0.18::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40wix%2Fmotion-edm-autogen-p13n%2F-%2Fmotion-edm-autogen-p13n-1.0.18.tgz"
+  dependencies:
+    "@babel/runtime": ^7.0.0
+    "@wix/motion-edm-autogen-types": 1.0.8
+    lodash: ~4.17.0
+  checksum: ca4d53a625c45a2294dd88fc7855adf1714631340dcfc27e623027b4b6806192e48e63fbdfbb94432dff8051b847fd8263f846ebf2b9320de2e9d351b80474f4
+  languageName: node
+  linkType: hard
+
+"@wix/motion-edm-autogen-query-wrapper@npm:^1.0.0":
+  version: 1.0.29
+  resolution: "@wix/motion-edm-autogen-query-wrapper@npm:1.0.29::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40wix%2Fmotion-edm-autogen-query-wrapper%2F-%2Fmotion-edm-autogen-query-wrapper-1.0.29.tgz"
+  dependencies:
+    "@babel/runtime": ^7.0.0
+    "@wix/filter-builder": ^1.0.20
+    "@wix/motion-edm-autogen-common": 1.16.0
+    "@wix/motion-edm-autogen-transformations-core": 1.18.0
+    lodash: ~4.17.0
+    long: ~4.0.0
+    tslib: ^2.0.0
+  checksum: 873ba23fa52d4515ddd3b91b7f24326c552ea7d30ecc809a4133ee6a35064dbb7fd79302b8308f4e6a2f9b8b7df6c55d3fd6328e87c4d153e993759f5828987e
+  languageName: node
+  linkType: hard
+
+"@wix/motion-edm-autogen-transformations-core@npm:1.18.0":
+  version: 1.18.0
+  resolution: "@wix/motion-edm-autogen-transformations-core@npm:1.18.0::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40wix%2Fmotion-edm-autogen-transformations-core%2F-%2Fmotion-edm-autogen-transformations-core-1.18.0.tgz"
+  dependencies:
+    "@babel/runtime": ^7.0.0
+    "@rushstack/eslint-patch": ^1.1.0
+    "@wix/motion-edm-autogen-common": 1.16.0
+    constant-case: ~3.0.0
+    deep-for-each: ~3.0.0
+    jsonpath-plus: ~5.1.0
+    lodash: ~4.17.0
+    tslib: ^2.0.0
+  checksum: 6644e847ad6ce826d1ec864d812ae690315ad4aabc0805113da86da97b5dfc703c75fb7146094adfb3b4ad237bf50ac0de3d99f518a42b7aa2b65a9e20ccc889
+  languageName: node
+  linkType: hard
+
+"@wix/motion-edm-autogen-transformations@npm:1.19.0":
+  version: 1.19.0
+  resolution: "@wix/motion-edm-autogen-transformations@npm:1.19.0::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40wix%2Fmotion-edm-autogen-transformations%2F-%2Fmotion-edm-autogen-transformations-1.19.0.tgz"
+  dependencies:
+    "@babel/runtime": ^7.0.0
+    "@rushstack/eslint-patch": ^1.1.0
+    "@wix/motion-edm-autogen-common": 1.16.0
+    "@wix/motion-edm-autogen-transformations-core": 1.18.0
+    constant-case: ~3.0.0
+    deep-for-each: ~3.0.0
+    js-yaml: ~4.1.0
+    jsonpath-plus: ~5.1.0
+    lodash: ~4.17.0
+    tslib: ^2.0.0
+  checksum: 6b4f7587ae41c076a9f8a608f7d01d6b391f84d2e54d40ca54f05969f95ae448a407f9215d897b640eef5b8622b11a68523c0fdf9a3128a366555ec2e2913820
+  languageName: node
+  linkType: hard
+
+"@wix/motion-edm-autogen-types@npm:1.0.8":
+  version: 1.0.8
+  resolution: "@wix/motion-edm-autogen-types@npm:1.0.8::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40wix%2Fmotion-edm-autogen-types%2F-%2Fmotion-edm-autogen-types-1.0.8.tgz"
+  checksum: 1599bb76aab447b80e7842d0e219226b38cab6801fc3918fb66754df6dd23bbe797a3088610fcc46f13b0b545c080fac8c638205fcc959af22a25a00876b65fb
+  languageName: node
+  linkType: hard
+
+"@wix/redirects@npm:^1.0.13":
+  version: 1.0.14
+  resolution: "@wix/redirects@npm:1.0.14::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40wix%2Fredirects%2F-%2Fredirects-1.0.14.tgz"
+  dependencies:
+    "@wix/metro-runtime": ^1.0.0
+    "@wix/motion-edm-autogen-query-wrapper": ^1.0.0
+    "@wix/sdk-types": ^1.0.0
+  checksum: 073f59aab560a8288bc5d87d9083551d03bec4713c33cfbca3ee49d0ad4d2f7571dbd74d7da93888a785da7f3208824f9ed96752f20ea59b250848cc9760f6c8
+  languageName: node
+  linkType: hard
+
+"@wix/sdk-types@npm:1.1.68, @wix/sdk-types@npm:^1.0.0":
+  version: 1.1.68
+  resolution: "@wix/sdk-types@npm:1.1.68::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40wix%2Fsdk-types%2F-%2Fsdk-types-1.1.68.tgz"
+  dependencies:
+    "@babel/runtime": ^7.21.5
+  checksum: 4a2654d026387dfde849b2f0fb10d0d98833237777b59b15728a31879026859950b783ae60cd48dd54f5b678e155a2cd1aaa20efadc29c4a2cf457567e48715c
   languageName: node
   linkType: hard
 
@@ -1262,6 +1456,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"constant-case@npm:~3.0.0":
+  version: 3.0.4
+  resolution: "constant-case@npm:3.0.4::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Fconstant-case%2F-%2Fconstant-case-3.0.4.tgz"
+  dependencies:
+    no-case: ^3.0.4
+    tslib: ^2.0.3
+    upper-case: ^2.0.2
+  checksum: 91d54f18341fcc491ae66d1086642b0cc564be3e08984d7b7042f8b0a721c8115922f7f11d6a09f13ed96ff326eabae11f9d1eb0335fa9d8b6e39e4df096010e
+  languageName: node
+  linkType: hard
+
 "convert-source-map@npm:^1.7.0":
   version: 1.9.0
   resolution: "convert-source-map@npm:1.9.0::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Fconvert-source-map%2F-%2Fconvert-source-map-1.9.0.tgz"
@@ -1293,6 +1498,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"crypto-js@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "crypto-js@npm:4.1.1::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Fcrypto-js%2F-%2Fcrypto-js-4.1.1.tgz"
+  checksum: 50cc66a35f2738171d9a6d80c85ba7d00cb6440b756db035ba9ccd03032c0a803029a62969ecd4c844106c980af87687c64b204dd967989379c4f354fb482d37
+  languageName: node
+  linkType: hard
+
 "debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.2, debug@npm:^4.3.3, debug@npm:^4.3.4":
   version: 4.3.4
   resolution: "debug@npm:4.3.4::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Fdebug%2F-%2Fdebug-4.3.4.tgz"
@@ -1302,6 +1514,15 @@ __metadata:
     supports-color:
       optional: true
   checksum: cedbec45298dd5c501d01b92b119cd3faebe5438c3917ff11ae1bff86a6c722930ac9c8659792824013168ba6db7c4668225d845c633fbdafbbf902a6389f736
+  languageName: node
+  linkType: hard
+
+"deep-for-each@npm:~3.0.0":
+  version: 3.0.0
+  resolution: "deep-for-each@npm:3.0.0::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Fdeep-for-each%2F-%2Fdeep-for-each-3.0.0.tgz"
+  dependencies:
+    lodash.isplainobject: ^4.0.6
+  checksum: 52e5cb07b57443c38f68647be729aff7f311198d700d61a56f43851ea2473d8a97ac5f0c480adb50137ef03f3b5b8ddb9bc139286e98c81dd8686fe9f7df04cf
   languageName: node
   linkType: hard
 
@@ -2193,7 +2414,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^4.1.0":
+"js-yaml@npm:^4.1.0, js-yaml@npm:~4.1.0":
   version: 4.1.0
   resolution: "js-yaml@npm:4.1.0::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Fjs-yaml%2F-%2Fjs-yaml-4.1.0.tgz"
   dependencies:
@@ -2255,6 +2476,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jsonpath-plus@npm:~5.1.0":
+  version: 5.1.0
+  resolution: "jsonpath-plus@npm:5.1.0::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Fjsonpath-plus%2F-%2Fjsonpath-plus-5.1.0.tgz"
+  checksum: 4f0486aa81a1adac150bfca3210803e2bd026e5aa0c0a194619e804b65fa8b611d3b2abcd29dda709b6a2c9247a912df3f4520799a13518db6b2971327626d09
+  languageName: node
+  linkType: hard
+
+"kind-of@npm:~5.1.0":
+  version: 5.1.0
+  resolution: "kind-of@npm:5.1.0::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Fkind-of%2F-%2Fkind-of-5.1.0.tgz"
+  checksum: fe85b7a2ed4b4d5a12e16e01d00d5c336e1760842fe0da38283605b9880c984288935e87b13138909e4d23d2d197a1d492f7393c6638d2c0fab8a900c4fb0392
+  languageName: node
+  linkType: hard
+
 "levn@npm:^0.4.1":
   version: 0.4.1
   resolution: "levn@npm:0.4.1::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Flevn%2F-%2Flevn-0.4.1.tgz"
@@ -2290,10 +2525,40 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.isplainobject@npm:^4.0.6":
+  version: 4.0.6
+  resolution: "lodash.isplainobject@npm:4.0.6::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Flodash.isplainobject%2F-%2Flodash.isplainobject-4.0.6.tgz"
+  checksum: afd70b5c450d1e09f32a737bed06ff85b873ecd3d3d3400458725283e3f2e0bb6bf48e67dbe7a309eb371a822b16a26cca4a63c8c52db3fc7dc9d5f9dd324cbb
+  languageName: node
+  linkType: hard
+
 "lodash.merge@npm:^4.6.2":
   version: 4.6.2
   resolution: "lodash.merge@npm:4.6.2::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Flodash.merge%2F-%2Flodash.merge-4.6.2.tgz"
   checksum: 402fa16a1edd7538de5b5903a90228aa48eb5533986ba7fa26606a49db2572bf414ff73a2c9f5d5fd36b31c46a5d5c7e1527749c07cbcf965ccff5fbdf32c506
+  languageName: node
+  linkType: hard
+
+"lodash@npm:^4.17.21, lodash@npm:~4.17.0":
+  version: 4.17.21
+  resolution: "lodash@npm:4.17.21::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Flodash%2F-%2Flodash-4.17.21.tgz"
+  checksum: d8cbea072bb08655bb4c989da418994b073a608dffa608b09ac04b43a791b12aeae7cd7ad919aa4c925f33b48490b5cfe6c1f71d827956071dae2e7bb3a6b74c
+  languageName: node
+  linkType: hard
+
+"long@npm:^4.0.0, long@npm:~4.0.0":
+  version: 4.0.0
+  resolution: "long@npm:4.0.0::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Flong%2F-%2Flong-4.0.0.tgz"
+  checksum: 50a6417d15b06104dbe4e3d4a667c39b137f130a9108ea8752b352a4cfae047531a3ac351c181792f3f8768fe17cca6b0f406674a541a86fb638aaac560d83ed
+  languageName: node
+  linkType: hard
+
+"lower-case@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "lower-case@npm:2.0.2::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Flower-case%2F-%2Flower-case-2.0.2.tgz"
+  dependencies:
+    tslib: ^2.0.3
+  checksum: 3d925e090315cf7dc1caa358e0477e186ffa23947740e4314a7429b6e62d72742e0bbe7536a5ae56d19d7618ce998aba05caca53c2902bd5742fdca5fc57fd7b
   languageName: node
   linkType: hard
 
@@ -2529,6 +2794,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"no-case@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "no-case@npm:3.0.4::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Fno-case%2F-%2Fno-case-3.0.4.tgz"
+  dependencies:
+    lower-case: ^2.0.2
+    tslib: ^2.0.3
+  checksum: 8ef545f0b3f8677c848f86ecbd42ca0ff3cd9dd71c158527b344c69ba14710d816d8489c746b6ca225e7b615108938a0bda0a54706f8c255933703ac1cf8e703
+  languageName: node
+  linkType: hard
+
 "node-gyp@npm:latest":
   version: 9.3.1
   resolution: "node-gyp@npm:9.3.1::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Fnode-gyp%2F-%2Fnode-gyp-9.3.1.tgz"
@@ -2747,6 +3022,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pkce-challenge@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "pkce-challenge@npm:3.1.0::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Fpkce-challenge%2F-%2Fpkce-challenge-3.1.0.tgz"
+  dependencies:
+    crypto-js: ^4.1.1
+  checksum: 5ff04324159946d1712557103f9cc6484ab0b86078c55049f5da1d709ffd9e1093868b44fb3fa98b162b14a6410f894d19eb09b79a6de0317be0ac9c86408b74
+  languageName: node
+  linkType: hard
+
 "pkg-dir@npm:^4.1.0":
   version: 4.2.0
   resolution: "pkg-dir@npm:4.2.0::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Fpkg-dir%2F-%2Fpkg-dir-4.2.0.tgz"
@@ -2816,6 +3100,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"querystring@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "querystring@npm:0.2.1::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Fquerystring%2F-%2Fquerystring-0.2.1.tgz"
+  checksum: 6841b32bec4f16ffe7f5b5e4373b47ad451f079cde3a7f45e63e550f0ecfd8f8189ef81fb50079413b3fc1c59b06146e4c98192cb74ed7981aca72090466cd94
+  languageName: node
+  linkType: hard
+
 "queue-microtask@npm:^1.2.2":
   version: 1.2.3
   resolution: "queue-microtask@npm:1.2.3::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Fqueue-microtask%2F-%2Fqueue-microtask-1.2.3.tgz"
@@ -2838,6 +3129,13 @@ __metadata:
     string_decoder: ^1.1.1
     util-deprecate: ^1.0.1
   checksum: e37be5c79c376fdd088a45fa31ea2e423e5d48854be7a22a58869b4e84d25047b193f6acb54f1012331e1bcd667ffb569c01b99d36b0bd59658fb33f513511b7
+  languageName: node
+  linkType: hard
+
+"regenerator-runtime@npm:^0.13.11":
+  version: 0.13.11
+  resolution: "regenerator-runtime@npm:0.13.11::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Fregenerator-runtime%2F-%2Fregenerator-runtime-0.13.11.tgz"
+  checksum: 12b069dc774001fbb0014f6a28f11c09ebfe3c0d984d88c9bced77fdb6fedbacbca434d24da9ae9371bfbf23f754869307fb51a4c98a8b8b18e5ef748677ca24
   languageName: node
   linkType: hard
 
@@ -3148,6 +3446,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tslib@npm:^2.0.0, tslib@npm:^2.0.3, tslib@npm:^2.4.1":
+  version: 2.5.0
+  resolution: "tslib@npm:2.5.0::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Ftslib%2F-%2Ftslib-2.5.0.tgz"
+  checksum: e32fc99cc730dd514e53c44e668d76016e738f0bcc726aad5dbd2d335cf19b87a95a9b1e4f0a9993e370f1d702b5e471cdd4acabcac428a3099d496b9af2021e
+  languageName: node
+  linkType: hard
+
 "tsutils@npm:^3.21.0":
   version: 3.21.0
   resolution: "tsutils@npm:3.21.0::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Ftsutils%2F-%2Ftsutils-3.21.0.tgz"
@@ -3172,6 +3477,13 @@ __metadata:
   version: 0.20.2
   resolution: "type-fest@npm:0.20.2::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Ftype-fest%2F-%2Ftype-fest-0.20.2.tgz"
   checksum: dea9df45ea1f0aaa4e2d3bed3f9a0bfe9e5b2592bddb92eb1bf06e50bcf98dbb78189668cd8bc31a0511d3fc25539b4cd5c704497e53e93e2d40ca764b10bfc3
+  languageName: node
+  linkType: hard
+
+"type-fest@npm:^2.19.0":
+  version: 2.19.0
+  resolution: "type-fest@npm:2.19.0::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Ftype-fest%2F-%2Ftype-fest-2.19.0.tgz"
+  checksum: a5a7ecf2e654251613218c215c7493574594951c08e52ab9881c9df6a6da0aeca7528c213c622bc374b4e0cb5c443aa3ab758da4e3c959783ce884c3194e12cb
   languageName: node
   linkType: hard
 
@@ -3234,6 +3546,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"upper-case@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "upper-case@npm:2.0.2::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Fupper-case%2F-%2Fupper-case-2.0.2.tgz"
+  dependencies:
+    tslib: ^2.0.3
+  checksum: 5ac176c9d3757abb71400df167f9abb46d63152d5797c630d1a9f083fbabd89711fb4b3dc6de06ff0138fe8946fa5b8518b4fcdae9ca8a3e341417075beae069
+  languageName: node
+  linkType: hard
+
 "uri-js@npm:^4.2.2":
   version: 4.4.1
   resolution: "uri-js@npm:4.4.1::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Furi-js%2F-%2Furi-js-4.4.1.tgz"
@@ -3258,6 +3579,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.57.0
     "@typescript-eslint/parser": ^5.57.0
     "@vitejs/plugin-react": ^3.1.0
+    "@wix/api-client": ^1.1.68
     eslint: ^8.37.0
     eslint-config-prettier: ^8.8.0
     eslint-plugin-prettier: ^4.2.1
